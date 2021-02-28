@@ -2,7 +2,7 @@ const balls=document.querySelectorAll('.hvr-radial-out');
 const w=window.innerWidth;
 const h=window.innerHeight;
 
-var bottomLength,
+let bottomLength,
     rightLength,
     colors=new Array('#55E6C1','#27ae60','#9b59b6','#2c3e50','#e74c3c','#f78fb3','#f53b57','#B33771');
 // var topLength = div.getBoundingClientRect().top; //div离屏幕上边距离（长度）
